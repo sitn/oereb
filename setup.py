@@ -17,6 +17,7 @@ requires = [
     'transaction',
     'zope.sqlalchemy',
     'waitress',
+    'pyramid_oereb',
     ]
 
 tests_require = [
@@ -26,7 +27,7 @@ tests_require = [
     ]
 
 setup(name='oereb',
-      version='0.0',
+      version='1.0-alpha',
       description='oereb',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
